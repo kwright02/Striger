@@ -1,18 +1,18 @@
 'scopeName': 'source.striger'
-'name': 'language-striger'
-'fileTypes': ['.stgr']
+'name': 'Striger'
+'fileTypes': ['.stgr','.striger']
 
 'patterns': [
     {
       'match': '\\b(([0-9]+\\.[0-9]*)|(\\.[0-9]+))|(([0-9]+[0-9]*)|([0-9]+))\\b'
       'name': 'constant.numeric.striger'
-    },
+    }
     {
-      'match': '\\b[{}\[\]\<\>]+\\b'
+      'match': '[{}\\[\\]\\<\\>]*'
       'name': 'meta.group.symbol.striger'
-    },
-    # …
+    }
     {
-        # Last rule
+      'match': '\\b(user-story|description|pov|user|)\\b'
+      'name': 'constant.keyword.striger'
     }
 ]

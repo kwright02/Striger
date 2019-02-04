@@ -4,15 +4,19 @@
 
 'patterns': [
     {
-      'match': '\\b(([0-9]+\\.[0-9]*)|(\\.[0-9]+))|(([0-9]+[0-9]*)|([0-9]+))\\b'
-      'name': 'constant.numeric.striger'
+      'match': '[a-z,A-Z]'
+      'name': 'letter.striger'
     }
     {
-      'match': '[{}\\[\\]\\<\\>]*'
-      'name': 'meta.group.symbol.striger'
+      'match': '[\\{\\}\\[\\]\\<\\>]*'
+      'name': 'group.striger'
     }
     {
       'match': '\\b(user-story|description|pov|user|)\\b'
-      'name': 'constant.keyword.striger'
+      'name': 'keyword.striger'
+    }
+    {
+      'match': '(~|–)'
+      'name': 'keysymbols.striger'
     }
 ]

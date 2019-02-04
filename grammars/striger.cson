@@ -8,7 +8,7 @@
       'name': 'constant.numeric.striger'
     },
     {
-      'match': '[{}\\[\\]\\<\\>]'
+      'match': '\\b[{}\[\]\<\>]+\\b'
       'name': 'meta.group.symbol.striger'
     },
     # …

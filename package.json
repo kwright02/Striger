@@ -1,0 +1,17 @@
+{
+  "name": "language-striger",
+  "version": "0.0.1",
+  "description": "Striger organizational highlighting",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwright02/Striger"
+  },
+  "bugs": {
+    "url": "https://github.com/kwright02/Striger/issues"
+  },
+  "license": "MIT"
+}

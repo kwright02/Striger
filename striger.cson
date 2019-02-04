@@ -1,0 +1,18 @@
+'scopeName': 'source.striger'
+'name': 'language-striger'
+'fileTypes': ['.stgr']
+
+'patterns': [
+    {
+      'match': '\\b(([0-9]+\\.[0-9]*)|(\\.[0-9]+))|(([0-9]+[0-9]*)|([0-9]+))\\b'
+      'name': 'constant.numeric.striger'
+    },
+    {
+      'match': '\\b{\\s(.*)\\s}\\b'
+      'name': 'meta.group.striger'
+    },
+    # …
+    {
+        # Last rule
+    }
+]

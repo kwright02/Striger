@@ -1,6 +1,6 @@
 {
   "name": "language-striger",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Striger organizational highlighting",
   "engines": {
     "atom": "*"

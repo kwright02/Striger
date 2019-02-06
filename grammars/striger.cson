@@ -4,17 +4,17 @@
 
 'patterns': [
     {
-      'match': '[a-z,A-Z]'
+      'match': '\\w+'
       'name': 'letter.striger'
-    }
+    },
     {
-      'match': '[\\{\\}\\[\\]\\<\\>]*'
+      'match': '(\\{|\\}|\\[|\\]|\\<|\\>)'
       'name': 'group.striger'
-    }
+    },
     {
-      'match': '\\b(user-story|description|pov|user|)\\b'
+      'match': '\\b(user-story|description|pov|features|)\\b'
       'name': 'keyword.striger'
-    }
+    },
     {
       'match': '(~|–)'
       'name': 'keysymbols.striger'

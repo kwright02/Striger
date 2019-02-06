@@ -8,11 +8,11 @@
       'name': 'letter.striger'
     },
     {
-      'match': '(\\{|\\}|\\[|\\]|\\<|\\>)|(.*\\{|.*\\}|.*\\[|.*\\]|.*\\<|.*\\>)|(\\{.*|\\}.*|\\[.*|\\].*|\\<.*|\\>.*)'
+      'match': '(\\{|\\}|\\[|\\]|\\<|\\>)'
       'name': 'group.striger'
     },
     {
-      'match': '\\b(user-story|description|pov|features|outline-title:features)\\b'
+      'match': '\\b(user-story|description|pov|features|outline-title|features)\\b'
       'name': 'keyword.striger'
     },
     {

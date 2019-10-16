@@ -8,15 +8,19 @@
       'name': 'letter.striger'
     },
     {
-      'match': '(\\{|\\}|\\[|\\]|\\<|\\>)'
+      'match': '({|}|\||<|>|\[|\])'
       'name': 'group.striger'
     },
     {
-      'match': '\\b(user-story|description|pov|features|outline-title|features)\\b'
+      'match': '(user_stories|user_story|description|pov|features|outline_title|features)'
       'name': 'keyword.striger'
     },
     {
-      'match': '(~|–|-)'
-      'name': 'keysymbols.striger'
+      'match': '[0-9]:'
+      'name': 'priorities.striger'
+    },
+    {
+      'match': '<[^<>]*>'
+      'name': 'btext.striger'
     }
 ]
